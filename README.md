@@ -13,5 +13,6 @@
 - Venkat Prudhvi Dommaraju
 - Bhavya Deepthi Gorrepati
 
+![Team Slide](Group.PNG)
 
 
