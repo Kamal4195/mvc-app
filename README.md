@@ -5,7 +5,7 @@
 ## Group-07
 
 - [Source Link](https://github.com/RaghunandanKumar/mvc-app)
-- [Demo site](http://localhost:3004/)
+- [Demo site(Coming soon)](https://github.com/RaghunandanKumar/mvc-app)
 
 ## Group Members
 - Raghunandan Kumar Naishadam(Section)
