@@ -8,10 +8,10 @@
 - [Demo site](http://localhost:3004/)
 
 ## Group Members
-- Raghunandan Kumar Naishadam
-- Hareesh Bhuma
-- Venkat Prudhvi Dommaraju
-- Bhavya Deepthi Gorrepati
+- Raghunandan Kumar Naishadam(Section)
+- Hareesh Bhuma(Student)
+- Venkat Prudhvi Dommaraju(Course)
+- Bhavya Deepthi Gorrepati(Instructor)
 
 ![Team Slide](Group.PNG)
 
