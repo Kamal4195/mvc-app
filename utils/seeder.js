@@ -1,8 +1,8 @@
 const Datastore = require('nedb') // set up a temporary (in memory) database
 const instructorData = require('../data/instructors.json') // read in data file
 const courseData = require('../data/courses.json')
-const studentData = require('../data/student.json') // read in data file
-const sectionData = require('../data/section.json') // read in data file
+const studentData = require('../data/students.json') // read in data file
+const sectionData = require('../data/sections.json') // read in data file
 // inject Express app to configure it - EVERYTHING in through argument list
 
 module.exports = (app) => {
@@ -23,17 +23,17 @@ module.exports = (app) => {
   // insert the sample data into our datastore
   db.courses.insert(courseData)
 
-  db.student = new Datastore() // new object property
-  db.student.loadDatabase() // call the loadDatabase method
+  db.students = new Datastore() // new object property
+  db.students.loadDatabase() // call the loadDatabase method
 
   // insert the sample data into our datastore
-  db.student.insert(studentData)
+  db.students.insert(studentData)
 
-  db.section = new Datastore() // new object property
-  db.section.loadDatabase() // call the loadDatabase method
+  db.sections = new Datastore() // new object property
+  db.sections.loadDatabase() // call the loadDatabase method
 
   // insert the sample data into our datastore
-  db.section.insert(sectionData)
+  db.sections.insert(sectionData)
 
   
 
@@ -44,11 +44,11 @@ module.exports = (app) => {
   app.locals.courses = db.courses.find(courseData)
   console.log(`${app.locals.courses.query.length} courses seeded`)
   
-  app.locals.student = db.student.find(studentData)
-  console.log(`${app.locals.student.query.length} student seeded`)
+  app.locals.students = db.students.find(studentData)
+  console.log(`${app.locals.students.query.length} students seeded`)
 
-  app.locals.section = db.section.find(sectionData)
-  console.log(`${app.locals.section.query.length} section seeded`)
+  app.locals.sections = db.sections.find(sectionData)
+  console.log(`${app.locals.sections.query.length} sections seeded`)
 
   console.log('END Data Seeder. Sample data read and verified.')
 }

@@ -23,7 +23,7 @@ router.get('/index', (req, res, next) => {
 // Route requests that start with '/dev' to a particular controller
 router.use('/instructor', require('../controllers/instructor.js'))
 router.use('/course', require('../controllers/course.js'))
-
+router.use('/student', require('../controllers/student.js'))
 // catch 404 and forward to error handler
 router.use((req, res, next) => {
   const error = new Error('Not Found')
