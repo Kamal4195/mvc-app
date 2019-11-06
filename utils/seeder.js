@@ -1,5 +1,6 @@
 const Datastore = require('nedb') // set up a temporary (in memory) database
 const instructorData = require('../data/instructors.json') // read in data file
+const courseData = require('../data/courses.json')
 const studentData = require('../data/student.json') // read in data file
 const sectionData = require('../data/section.json') // read in data file
 // inject Express app to configure it - EVERYTHING in through argument list
@@ -11,8 +12,16 @@ module.exports = (app) => {
   db.instructors = new Datastore() // new object property
   db.instructors.loadDatabase() // call the loadDatabase method
 
+
   // insert the sample data into our datastore
   db.instructors.insert(instructorData)
+
+  db.courses = new Datastore() // new object property
+  db.courses.loadDatabase() // call the loadDatabase method
+  
+
+  // insert the sample data into our datastore
+  db.courses.insert(courseData)
 
   db.student = new Datastore() // new object property
   db.student.loadDatabase() // call the loadDatabase method
@@ -32,6 +41,9 @@ module.exports = (app) => {
   app.locals.instructors = db.instructors.find(instructorData)
   console.log(`${app.locals.instructors.query.length} instructors seeded`)
 
+  app.locals.courses = db.courses.find(courseData)
+  console.log(`${app.locals.courses.query.length} courses seeded`)
+  
   app.locals.student = db.student.find(studentData)
   console.log(`${app.locals.student.query.length} student seeded`)
 

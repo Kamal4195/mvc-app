@@ -1,0 +1,99 @@
+[
+    {
+      "_id": 11,
+      "schoolNumber": "44",
+      "courseNumber": "563",
+      "Name": "Developing Web Apps and Services",
+      "inSpring": true,
+      "inSummer": false,
+      "inFall": true,
+      "Major": "ACS"   
+    },
+
+    {
+      
+      "_id": 12,
+      "schoolNumber": "44",
+      "courseNumber": "542",
+      "Name": "Java",
+      "inSpring": true,
+      "inSummer": false,
+      "inFall": true,
+      "Major": "ACS"  
+      
+    },
+  
+    {
+      
+      "_id": 13,
+      "schoolNumber": "44",
+      "courseNumber": "560",
+      "Name": "ADB",
+      "inSpring": true,
+      "inSummer": false,
+      "inFall": true,
+      "Major": "ACS"  
+    },
+
+    {
+     
+      "_id": 14,
+      "schoolNumber": "44",
+      "courseNumber": "550",
+      "Name": "Project Management",
+      "inSpring": true,
+      "inSummer": false,
+      "inFall": true,
+      "Major": "ACS"  
+    },
+
+    {
+      
+      "_id": 15,
+      "schoolNumber": "44",
+      "courseNumber": "555",
+      "Name": "Android",
+      "inSpring": true,
+      "inSummer": false,
+      "inFall": true,
+      "Major": "ACS"  
+    },
+
+    {
+      
+      "_id": 16,
+      "schoolNumber": "44",
+      "courseNumber": "563",
+      "Name": "Patterns and Frameworks",
+      "inSpring": true,
+      "inSummer": false,
+      "inFall": true,
+      "Major": "ACS"  
+    },
+
+    {
+      
+      "_id": 17,
+      "schoolNumber": "44",
+      "courseNumber": "460",
+      "Name": "Big Data",
+      "inSpring": true,
+      "inSummer": false,
+      "inFall": true,
+      "Major": "ACS"  
+    },
+
+    {
+      
+      "_id": 18,
+      "schoolNumber": "44",
+      "courseNumber": "465",
+      "Name": "Machine Learning",
+      "inSpring": true,
+      "inSummer": false,
+      "inFall": true,
+      "Major": "ACS"  
+    }
+
+  ]
+  
