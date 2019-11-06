@@ -1,0 +1,112 @@
+[
+    {
+      "_id": 90,
+      "email": "s536881@nwmissouri.edu",
+      "given": "Hareesh",
+      "family": "Bhuma",
+      "Github": "HareeshBhuma",
+      "Website": "www.bhuma.com",
+      "GPA": 8.99,
+      "SectionID": 1001
+      
+    },
+    {
+        "_id": 91,
+        "email": "s536881@nwmissouri.edu",
+        "given": "Hareesh",
+        "family": "Bhuma",
+        "Github": "HareeshBhuma",
+        "Website": "www.bhuma.com",
+        "GPA": 64468,
+        "SectionID": 1002
+    },
+    {
+        "_id": 92,
+        "email": "s536881@nwmissouri.edu",
+        "given": "Hareesh",
+        "family": "Bhuma",
+        "Github": "HareeshBhuma",
+        "Website": "www.bhuma.com",
+        "GPA": 8.99,
+        "SectionID": 1003
+        
+      },
+      {
+        "_id": 93,
+        "email": "s536881@nwmissouri.edu",
+        "given": "Hareesh",
+        "family": "Bhuma",
+        "Github": "HareeshBhuma",
+        "Website": "www.bhuma.com",
+        "GPA": 8.99,
+        "SectionID": 1004
+        
+      },
+      {
+        "_id": 94,
+        "email": "s536881@nwmissouri.edu",
+        "given": "Hareesh",
+        "family": "Bhuma",
+        "Github": "HareeshBhuma",
+        "Website": "www.bhuma.com",
+        "GPA": 8.99,
+        "SectionID": 1005
+        
+      },
+      {
+        "_id": 95,
+        "email": "s536881@nwmissouri.edu",
+        "given": "Hareesh",
+        "family": "Bhuma",
+        "Github": "HareeshBhuma",
+        "Website": "www.bhuma.com",
+        "GPA": 8.99,
+        "SectionID": 1006
+        
+      },
+      {
+        "_id": 96,
+        "email": "s536881@nwmissouri.edu",
+        "given": "Hareesh",
+        "family": "Bhuma",
+        "Github": "HareeshBhuma",
+        "Website": "www.bhuma.com",
+        "GPA": 8.99,
+        "SectionID": 1005
+        
+      },
+      {
+        "_id": 97,
+        "email": "s536881@nwmissouri.edu",
+        "given": "Hareesh",
+        "family": "Bhuma",
+        "Github": "HareeshBhuma",
+        "Website": "www.bhuma.com",
+        "GPA": 8.99,
+        "SectionID": 1006
+        
+      },
+      {
+        "_id": 98,
+        "email": "s536881@nwmissouri.edu",
+        "given": "Hareesh",
+        "family": "Bhuma",
+        "Github": "HareeshBhuma",
+        "Website": "www.bhuma.com",
+        "GPA": 8.99,
+        "SectionID": 1003
+        
+      },
+      {
+        "_id": 99,
+        "email": "s536881@nwmissouri.edu",
+        "given": "Hareesh",
+        "family": "Bhuma",
+        "Github": "HareeshBhuma",
+        "Website": "www.bhuma.com",
+        "GPA": 8.99,
+        "SectionID": 1002
+        
+      }
+      
+  ]
