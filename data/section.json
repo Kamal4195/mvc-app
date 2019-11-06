@@ -6,7 +6,7 @@
         "StartTime": 800,
         "RoomNumber": "CH 0100",
         "InstructorID": 1,
-        "CourseID":
+        "CourseID":11
     },
     {
         "_id": 1002,
@@ -15,7 +15,7 @@
         "StartTime": 900,
         "RoomNumber": "CH 0200",
         "InstructorID": 2,
-        "CourseID":
+        "CourseID":12
     },
     {
         "_id": 1003,
@@ -24,7 +24,7 @@
         "StartTime": 1000,
         "RoomNumber": "CH 0300",
         "InstructorID": 3,
-        "CourseID":
+        "CourseID":13
     },
     {
         "_id": 1004,
@@ -33,7 +33,7 @@
         "StartTime": 1100,
         "RoomNumber": "CH 0400",
         "InstructorID": 4,
-        "CourseID":
+        "CourseID":14
     },
     {
         "_id": 1005,
@@ -42,7 +42,7 @@
         "StartTime": 1200,
         "RoomNumber": "CH 0500",
         "InstructorID": 5,
-        "CourseID":
+        "CourseID":15
     },
     {
         "_id": 1006,
@@ -51,7 +51,7 @@
         "StartTime": 1200,
         "RoomNumber": "CH 0600",
         "InstructorID": 6,
-        "CourseID":
+        "CourseID":16
     },
     {
         "_id": 1007,
@@ -60,6 +60,6 @@
         "StartTime": 1300,
         "RoomNumber": "CH 0700",
         "InstructorID": 7,
-        "CourseID":
-    },
+        "CourseID":17
+    }
 ]
