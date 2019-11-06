@@ -1,0 +1,98 @@
+[
+  {
+    "_id": 1,
+    "given": "Bhavya",
+    "family": "Gorrepati",
+	  "email": "bhavyadeepthi545@gmail.com",
+    "city": "Maryville",
+    "state": "MO",
+    "zip": 64468,
+    "country": "USA",
+	  "salary": 20000,
+    "github": "https://github.com/Bhavya-123"
+  },
+  {
+    "_id": 2,
+    "given": "Deepthi",
+    "family": "Gorrepati",
+	  "email": "deepthi@gmail.com",
+    "city": "Kansas",
+    "state": "MO",
+    "zip": 66101,
+    "country": "USA",
+	  "salary": 30000,
+    "github": "https://github.com/Deepthi-g"
+  },
+  {
+    "_id": 3,
+    "given": "Anusha",
+    "family": "Bezawada",
+	  "email": "Anusha@gmail.com",
+    "city": "Compton",
+    "state": "CA",
+    "zip": 90201,
+    "country": "USA",
+	  "salary": 50000,
+    "github": "https://github.com/Anusha567"
+  },
+  {
+    "_id": 4,
+    "given": "Anitha",
+    "family": "Bezawada",
+	  "email": "Anitha@gmail.com",
+    "city": "Bell",
+    "state": "CA",
+    "zip": 90202,
+    "country": "USA",
+	  "salary": 100000,
+    "github": "https://github.com/Anitha985"
+  },
+  {
+    "_id": 5,
+    "given": "Denise",
+    "family": "Case",
+	  "email": "case@gmail.com",
+    "city": "Fremont",
+    "state": "CA",
+    "zip": 90231,
+    "country": "USA",
+	  "salary": 80000,
+    "github": "https://github.com/denisecase"
+  },
+  {
+    "_id": 6,
+    "given": "Carol",
+    "family": "Spradling",
+	  "email": "carol@gmail.com",
+    "city": "MAryville",
+    "state": "MO",
+    "zip": 64468,
+    "country": "USA",
+	  "salary": 75000,
+    "github": "https://github.com/SpradlingC"
+  },
+  {
+    "_id": 7,
+    "given": "Rogers",
+    "family": "Micheal",
+	  "email": "rogers@gmail.com",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": 60007,
+    "country": "USA",
+	  "salary": 27000,
+    "github": "https://github.com/RogersM"
+  },
+  {
+    "_id": 8,
+    "given": "Ajay",
+    "family": "Bandi",
+	  "email": "ajaybandi@gmail.com",
+    "city": "Maryville",
+    "state": "MO",
+    "zip": 64468,
+    "country": "USA",
+	  "salary": 96000,
+    "github": "https://github.com/BandiAJ"
+  }
+]
