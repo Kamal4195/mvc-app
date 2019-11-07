@@ -16,7 +16,7 @@ const notfoundstring = 'Could not find developer with id='
 // GET all JSON
 api.get('/findall', (req, res) => {
   res.setHeader('Content-Type', 'application/json')
-  const data = req.app.locals.instructors.query
+  const data = req.app.locals.sections.query
   res.send(JSON.stringify(data))
 })
 
@@ -42,41 +42,41 @@ api.get('/', (req, res) => {
 // GET create
 api.get('/create', (req, res) => {
   res.render('instructor/create', {
-    instructors: req.app.locals.instructors.query,
-    instructor: new Model()
+    sections: req.app.locals.sections.query,
+    section: new Model()
   })
 })
 
 // GET /delete/:id
 api.get('/delete/:id', (req, res) => {
   const id = parseInt(req.params.id)
-  const data = req.app.locals.instructors.query
+  const data = req.app.locals.sections.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
   res.render('instructor/delete', {
-    instructor: item
+    section: item
   })
 })
 
 // GET /details/:id
 api.get('/details/:id', (req, res) => {
   const id = parseInt(req.params.id)
-  const data = req.app.locals.instructors.query
+  const data = req.app.locals.sections.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
-  res.render('instructor/details', {
-  instructor: item
+  res.render('section/details', {
+    section: item
   })
 })
 
 // GET one
 api.get('/edit/:id', (req, res) => {
   const id = parseInt(req.params.id)
-  const data = req.app.locals.instructors.query
+  const data = req.app.locals.sections.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
-  res.render('instructor/edit', {
-    instructor: item
+  res.render('section/edit', {
+    section: item
   })
 })
 
@@ -89,13 +89,13 @@ api.post('/save', (req, res) => {
   const item = new Model()
   console.info(`NEW ID ${req.body._id}`)
   item._id = parseInt(req.body._id)
-  item.Email = req.body.email
-  item.Given = req.body.given
-  item.Family = req.body.family
-  item.City = req.body.city
-  item.State = req.body.state
-  item.Zip = req.body.zip
-  item.Country = req.body.country
+  item.SectionNumber = req.body.SectionNumber
+  item.Days = req.body.Days
+  item.StartTime =parseInt(req.body.StartTime)
+  item.RoomNumber = req.body.RoomNumber
+  item.InstructorID =parseInt(req.body.InstructorID)
+  item.CourseID = parseInt(req.body.CourseID)
+  
   res.send(`THIS FUNCTION WILL SAVE A NEW instructor ${JSON.stringify(item)}`)
 })
 
