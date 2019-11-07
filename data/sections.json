@@ -1,7 +1,7 @@
 [
     {
         "_id": 1001,
-        "SectionNumber": "01",
+        "SectionNumber": "101",
         "Days": "MWF",
         "StartTime": 800,
         "RoomNumber": "CH 0100",
@@ -10,7 +10,7 @@
     },
     {
         "_id": 1002,
-        "SectionNumber": "02",
+        "SectionNumber": "102",
         "Days": "TR",
         "StartTime": 900,
         "RoomNumber": "CH 0200",
@@ -19,7 +19,7 @@
     },
     {
         "_id": 1003,
-        "SectionNumber": "01",
+        "SectionNumber": "103",
         "Days": "MWF",
         "StartTime": 1000,
         "RoomNumber": "CH 0300",
@@ -28,7 +28,7 @@
     },
     {
         "_id": 1004,
-        "SectionNumber": "01",
+        "SectionNumber": "104",
         "Days": "TR",
         "StartTime": 1100,
         "RoomNumber": "CH 0400",
@@ -37,7 +37,7 @@
     },
     {
         "_id": 1005,
-        "SectionNumber": "01",
+        "SectionNumber": "105",
         "Days": "MWF",
         "StartTime": 1200,
         "RoomNumber": "CH 0500",
@@ -46,7 +46,7 @@
     },
     {
         "_id": 1006,
-        "SectionNumber": "01",
+        "SectionNumber": "106",
         "Days": "TR",
         "StartTime": 1200,
         "RoomNumber": "CH 0600",
@@ -55,7 +55,7 @@
     },
     {
         "_id": 1007,
-        "SectionNumber": "01",
+        "SectionNumber": "107",
         "Days": "MWF",
         "StartTime": 1300,
         "RoomNumber": "CH 0700",
