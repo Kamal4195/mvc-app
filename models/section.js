@@ -55,22 +55,8 @@ const SectionSchema = new mongoose.Schema({
     required: true
     // ,
     // default: '64468'
-  },
-  country: {
-    type: String,
-    minlength: 5,
-    maxlength: 100,
-    required: true,
-    default: 'USA'
-  },
-  url: {
-    type: String,
-    minlength: 4,
-    maxlength: 100,
-    required: true,
-    default: 'http://yourwebsite.com'
   }
 
 })
-module.exports = mongoose.model('Developer', DeveloperSchema)
+module.exports = mongoose.model('section', SectionSchema)
 // the model Developer is for the developers collection in the database.
