@@ -13,8 +13,6 @@ const SectionSchema = new mongoose.Schema({
   _id: {
     type: Number,
     required: true
-    ,
-    unique: true
   },
   SectionNumber: {
     type: String,
