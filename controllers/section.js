@@ -7,7 +7,7 @@
 */
 const express = require('express')
 const api = express.Router()
-const Model = require('../models/section.js')
+const SectionSchema = require('../models/section.js')
 const find = require('lodash.find')
 const notfoundstring = 'Could not find developer with id='
 
@@ -24,7 +24,7 @@ api.get('/findall', (req, res) => {
 api.get('/findone/:id', (req, res) => {
   res.setHeader('Content-Type', 'application/json')
   const id = parseInt(req.params.id)
-  const data = req.app.locals.developers.query
+  const data = req.app.locals.sections.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
   res.send(JSON.stringify(item))
@@ -41,9 +41,9 @@ api.get('/', (req, res) => {
 
 // GET create
 api.get('/create', (req, res) => {
-  res.render('instructor/create', {
+  res.render('section/create', {
     sections: req.app.locals.sections.query,
-    section: new Model()
+    section: new SectionSchema()
   })
 })
 
@@ -53,7 +53,7 @@ api.get('/delete/:id', (req, res) => {
   const data = req.app.locals.sections.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
-  res.render('instructor/delete', {
+  res.render('section/delete', {
     section: item
   })
 })
@@ -86,7 +86,7 @@ api.get('/edit/:id', (req, res) => {
 api.post('/save', (req, res) => {
   console.info(`Handling POST ${req}`)
   console.debug(JSON.stringify(req.body))
-  const item = new Model()
+  const item = new SectionSchema()
   console.info(`NEW ID ${req.body._id}`)
   item._id = parseInt(req.body._id)
   item.SectionNumber = req.body.SectionNumber
@@ -96,7 +96,7 @@ api.post('/save', (req, res) => {
   item.InstructorID =parseInt(req.body.InstructorID)
   item.CourseID = parseInt(req.body.CourseID)
   
-  res.send(`THIS FUNCTION WILL SAVE A NEW instructor ${JSON.stringify(item)}`)
+  res.send(`THIS FUNCTION WILL SAVE A NEW Section ${JSON.stringify(item)}`)
 })
 
 // POST update with id
@@ -104,7 +104,7 @@ api.post('/save/:id', (req, res) => {
   console.info(`Handling SAVE request ${req}`)
   const id = parseInt(req.params.id)
   console.info(`Handling SAVING ID=${id}`)
-  res.send(`THIS FUNCTION WILL SAVE CHANGES TO AN EXISTING instructor with id=${id}`)
+  res.send(`THIS FUNCTION WILL SAVE CHANGES TO AN EXISTING Section with id=${id}`)
 })
 
 // DELETE id (uses HTML5 form method POST)
@@ -112,7 +112,7 @@ api.post('/delete/:id', (req, res) => {
   console.info(`Handling DELETE request ${req}`)
   const id = parseInt(req.params.id)
   console.info(`Handling REMOVING ID=${id}`)
-  res.send(`THIS FUNCTION WILL DELETE FOREVER THE EXISTING instructor with id=${id}`)
+  res.send(`THIS FUNCTION WILL DELETE FOREVER THE EXISTING Section with id=${id}`)
 })
 
 module.exports = api
