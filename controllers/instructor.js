@@ -1,6 +1,6 @@
 /**
 *  Instructor controller
-*  Handles requests related to developer resources.
+*  Handles requests related to instructor resources.
 *
 * @author Bhavya Deepthi <S536778@nwmissouri.edu>
 *
@@ -9,7 +9,7 @@ const express = require('express')
 const api = express.Router()
 const Model = require('../models/instructor.js')
 const find = require('lodash.find')
-const notfoundstring = 'Could not find developer with id='
+const notfoundstring = 'Could not find instructor with id='
 
 // RESPOND WITH JSON DATA  --------------------------------------------
 

@@ -1,6 +1,6 @@
 /**
-*  Developer controller
-*  Handles requests related to developer resources.
+*  Course controller
+*  Handles requests related to course resources.
 *
 * @author venkat Prudhvi <S537236@nwmissouri.edu>
 *

@@ -1,8 +1,8 @@
 /**
-*  Developer controller
-*  Handles requests related to developer resources.
+*  Section controller
+*  Handles requests related to section resources.
 *
-* @author Raghunandan Kumar <S536778@nwmissouri.edu>
+* @author Raghunandan Kumar <S537156@nwmissouri.edu>
 *
 */
 const express = require('express')

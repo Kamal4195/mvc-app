@@ -1,15 +1,15 @@
 /**
-*  Developer controller
-*  Handles requests related to developer resources.
+*  Student controller
+*  Handles requests related to student resources.
 *
-* @author Hareesh Bhuma <S536778@nwmissouri.edu>
+* @author Hareesh Bhuma <S536881@nwmissouri.edu>
 *
 */
 const express = require('express')
 const api = express.Router()
 const studentSchema = require('../models/student.js')
 const find = require('lodash.find')
-const notfoundstring = 'Could not find developer with id='
+const notfoundstring = 'Could not find student with id='
 
 // RESPOND WITH JSON DATA  --------------------------------------------
 
