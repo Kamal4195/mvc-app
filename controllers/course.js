@@ -7,7 +7,7 @@
 */
 const express = require('express')
 const api = express.Router()
-const Model = require('../models/course.js')
+const CourseSchema = require('../models/course.js')
 const find = require('lodash.find')
 const notfoundstring = 'Could not find course with id='
 
@@ -41,9 +41,9 @@ api.get('/', (req, res) => {
 
 // GET create
 api.get('/create', (req, res) => {
-  res.render('instructor/create', {
+  res.render('course/create', {
     courses: req.app.locals.courses.query,
-    courses: new Model()
+    course: new CourseSchema()
   })
 })
 
@@ -54,7 +54,7 @@ api.get('/delete/:id', (req, res) => {
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
   res.render('course/delete', {
-    courses: item
+    course: item
   })
 })
 
@@ -65,7 +65,7 @@ api.get('/details/:id', (req, res) => {
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
   res.render('course/details', {
-  courses: item
+  course: item
   })
 })
 
@@ -76,7 +76,7 @@ api.get('/edit/:id', (req, res) => {
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
   res.render('course/edit', {
-    courses: item
+    course: item
   })
 })
 
@@ -86,17 +86,17 @@ api.get('/edit/:id', (req, res) => {
 api.post('/save', (req, res) => {
   console.info(`Handling POST ${req}`)
   console.debug(JSON.stringify(req.body))
-  const item = new Model()
+  const item = new CourseSchema()
   console.info(`NEW ID ${req.body._id}`)
   item._id = parseInt(req.body._id)
-  item.Email = req.body.email
-  item.Given = req.body.given
-  item.Family = req.body.family
-  item.City = req.body.city
-  item.State = req.body.state
-  item.Zip = req.body.zip
-  item.Country = req.body.country
-  res.send(`THIS FUNCTION WILL SAVE A NEW instructor ${JSON.stringify(item)}`)
+  item.schoolNumber = req.body.schoolNumber
+  item.courseNumber = req.body.courseNumber
+  item.Name = req.body.Name
+  item.inSpring = req.body.inSpring
+  item.inSummer = req.body.inSummer
+  item.inFall = req.body.inFall
+  item.Major = req.body.Major
+  res.send(`THIS FUNCTION WILL SAVE A NEW course ${JSON.stringify(item)}`)
 })
 
 // POST update with id
@@ -104,7 +104,7 @@ api.post('/save/:id', (req, res) => {
   console.info(`Handling SAVE request ${req}`)
   const id = parseInt(req.params.id)
   console.info(`Handling SAVING ID=${id}`)
-  res.send(`THIS FUNCTION WILL SAVE CHANGES TO AN EXISTING instructor with id=${id}`)
+  res.send(`THIS FUNCTION WILL SAVE CHANGES TO AN EXISTING course with id=${id}`)
 })
 
 // DELETE id (uses HTML5 form method POST)
@@ -112,7 +112,7 @@ api.post('/delete/:id', (req, res) => {
   console.info(`Handling DELETE request ${req}`)
   const id = parseInt(req.params.id)
   console.info(`Handling REMOVING ID=${id}`)
-  res.send(`THIS FUNCTION WILL DELETE FOREVER THE EXISTING instructor with id=${id}`)
+  res.send(`THIS FUNCTION WILL DELETE FOREVER THE EXISTING course with id=${id}`)
 })
 
 module.exports = api
