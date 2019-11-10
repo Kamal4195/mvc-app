@@ -9,7 +9,7 @@ const express = require('express')
 const api = express.Router()
 const SectionSchema = require('../models/section.js')
 const find = require('lodash.find')
-const notfoundstring = 'Could not find developer with id='
+const notfoundstring = 'Could not find section with id='
 
 // RESPOND WITH JSON DATA  --------------------------------------------
 
@@ -96,7 +96,7 @@ api.post('/save', (req, res) => {
   item.InstructorID =parseInt(req.body.InstructorID)
   item.CourseID = parseInt(req.body.CourseID)
   
-  res.send(`THIS FUNCTION WILL SAVE A NEW Section ${JSON.stringify(item)}`)
+  res.send(`THIS FUNCTION WILL SAVE A NEW section ${JSON.stringify(item)}`)
 })
 
 // POST update with id
@@ -104,7 +104,7 @@ api.post('/save/:id', (req, res) => {
   console.info(`Handling SAVE request ${req}`)
   const id = parseInt(req.params.id)
   console.info(`Handling SAVING ID=${id}`)
-  res.send(`THIS FUNCTION WILL SAVE CHANGES TO AN EXISTING Section with id=${id}`)
+  res.send(`THIS FUNCTION WILL SAVE CHANGES TO AN EXISTING section with id=${id}`)
 })
 
 // DELETE id (uses HTML5 form method POST)
@@ -112,7 +112,7 @@ api.post('/delete/:id', (req, res) => {
   console.info(`Handling DELETE request ${req}`)
   const id = parseInt(req.params.id)
   console.info(`Handling REMOVING ID=${id}`)
-  res.send(`THIS FUNCTION WILL DELETE FOREVER THE EXISTING Section with id=${id}`)
+  res.send(`THIS FUNCTION WILL DELETE FOREVER THE EXISTING section with id=${id}`)
 })
 
 module.exports = api
