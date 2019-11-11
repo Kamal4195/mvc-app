@@ -56,5 +56,5 @@ const SectionSchema = new mongoose.Schema({
   }
 
 })
-module.exports = mongoose.model('section', SectionSchema)
+module.exports = mongoose.model('Section', SectionSchema)
 // the model Developer is for the developers collection in the database.
