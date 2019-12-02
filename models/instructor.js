@@ -18,15 +18,13 @@ const InstructorSchema = new mongoose.Schema({
     type: String,
     minlength: 3,
     maxlength: 100,
-    required: false,
-    default: 'Given name'
+    required: false
   },
   family: {
     type: String,
     minlength: 3,
     maxlength: 100,
-    required: false,
-    default: 'Family name'
+    required: false
   },
   email: {
     type: String,
@@ -39,43 +37,37 @@ const InstructorSchema = new mongoose.Schema({
     type: String,
     minlength: 3,
     maxlength: 100,
-    required: true,
-    default: 'Maryville'
+    required: true
   },
   state: {
     type: String,
     minlength: 2,
     maxlength: 100,
-    required: true,
-    default: 'MO'
+    required: true
   },
   zip: {
     type: String,
     minlength: 5,
     maxlength: 12,
-    required: true,
-    default: '64468'
+    required: true
   },
   country: {
     type: String,
     minlength: 5,
     maxlength: 100,
-    required: true,
-    default: 'USA'
+    required: true
   },
   salary: {
     type: Number,
     minlength: 1,
     maxlength: 10,
-    required: true,
-    default: '10000'
+    required: true
   },
   github: {
     type: String,
     minlength: 4,
     maxlength: 100,
     required: true,
-    default: 'https://github.com/Bhavya-123'
   }
 
 })

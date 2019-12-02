@@ -1,0 +1,431 @@
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"error":{"errno":-4058,"syscall":"stat","code":"ENOENT","path":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\public\\images\\favicon.ico"},"level":"error","message":"uncaughtException: ENOENT: no such file or directory, stat 'C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\public\\images\\favicon.ico'\nError: ENOENT: no such file or directory, stat 'C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\public\\images\\favicon.ico'\n    at Object.statSync (fs.js:898:3)\n    at resolveSync (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\serve-favicon\\index.js:187:17)\n    at favicon (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\serve-favicon\\index.js:61:12)\n    at Object.<anonymous> (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:125:9)\n    at Module._compile (internal/modules/cjs/loader.js:936:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)\n    at Module.load (internal/modules/cjs/loader.js:790:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:703:12)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)\n    at internal/main/run_main_module.js:17:11","stack":"Error: ENOENT: no such file or directory, stat 'C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\public\\images\\favicon.ico'\n    at Object.statSync (fs.js:898:3)\n    at resolveSync (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\serve-favicon\\index.js:187:17)\n    at favicon (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\serve-favicon\\index.js:61:12)\n    at Object.<anonymous> (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:125:9)\n    at Module._compile (internal/modules/cjs/loader.js:936:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)\n    at Module.load (internal/modules/cjs/loader.js:790:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:703:12)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)\n    at internal/main/run_main_module.js:17:11","exception":true,"date":"Sun Dec 01 2019 13:15:09 GMT-0600 (Central Standard Time)","process":{"pid":11416,"uid":null,"gid":null,"cwd":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.9.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"],"memoryUsage":{"rss":50941952,"heapTotal":31711232,"heapUsed":19439272,"external":19780470}},"os":{"loadavg":[0,0,0],"uptime":67112},"trace":[{"column":3,"file":"fs.js","function":"Object.statSync","line":898,"method":"statSync","native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\serve-favicon\\index.js","function":"resolveSync","line":187,"method":null,"native":false},{"column":12,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\serve-favicon\\index.js","function":"favicon","line":61,"method":null,"native":false},{"column":9,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js","function":null,"line":125,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":936,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":947,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":790,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":703,"method":"_load","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module.runMain","line":999,"method":"runMain","native":false},{"column":11,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /images/manifest.json","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://naishadamraghu@gmail.com:Moon@2019@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /student","level":"debug"}
+{"message":"GET /course","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Moon@2019@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Moon@2019@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://naishadamraghu@gmail.com:Moon@2019@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:@Sweety123@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:@Sweety123@Cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:%2540Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"]},"level":"error","message":"uncaughtException: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\nError: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","stack":"Error: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","exception":true,"date":"Sun Dec 01 2019 19:26:29 GMT-0600 (Central Standard Time)","process":{"pid":12232,"uid":null,"gid":null,"cwd":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.9.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"],"memoryUsage":{"rss":57888768,"heapTotal":33288192,"heapUsed":23440712,"external":20040231}},"os":{"loadavg":[0,0,0],"uptime":89392},"trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":772,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":677,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":830,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":68,"method":null,"native":false},{"column":47,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js","function":null,"line":80,"method":null,"native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":75,"method":null,"native":false},{"column":11,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":64,"method":null,"native":false},{"column":41,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js","function":"ClientSession.endSession","line":135,"method":"endSession","native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"executeCallback","line":59,"method":null,"native":false},{"column":14,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"callbackWithRetry","line":131,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js","function":null,"line":36,"method":null,"native":false},{"column":9,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js","function":null,"line":92,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":null,"line":289,"method":null,"native":false},{"column":18,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js","function":null,"line":414,"method":null,"native":false},{"column":11,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":75,"method":null,"native":false}]}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"]},"level":"error","message":"uncaughtException: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\nError: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","stack":"Error: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","exception":true,"date":"Sun Dec 01 2019 19:27:56 GMT-0600 (Central Standard Time)","process":{"pid":6028,"uid":null,"gid":null,"cwd":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.9.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"],"memoryUsage":{"rss":57028608,"heapTotal":32759808,"heapUsed":22855544,"external":20001634}},"os":{"loadavg":[0,0,0],"uptime":89479},"trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":772,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":677,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":830,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":68,"method":null,"native":false},{"column":47,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js","function":null,"line":80,"method":null,"native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":75,"method":null,"native":false},{"column":11,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":64,"method":null,"native":false},{"column":41,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js","function":"ClientSession.endSession","line":135,"method":"endSession","native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"executeCallback","line":59,"method":null,"native":false},{"column":14,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"callbackWithRetry","line":131,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js","function":null,"line":36,"method":null,"native":false},{"column":9,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js","function":null,"line":92,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":null,"line":289,"method":null,"native":false},{"column":18,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js","function":null,"line":414,"method":null,"native":false},{"column":11,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":75,"method":null,"native":false}]}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"]},"level":"error","message":"uncaughtException: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\nError: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","stack":"Error: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","exception":true,"date":"Sun Dec 01 2019 19:30:20 GMT-0600 (Central Standard Time)","process":{"pid":12152,"uid":null,"gid":null,"cwd":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.9.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"],"memoryUsage":{"rss":57204736,"heapTotal":32759808,"heapUsed":22853696,"external":20041292}},"os":{"loadavg":[0,0,0],"uptime":89623},"trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":772,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":677,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":830,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":68,"method":null,"native":false},{"column":47,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js","function":null,"line":80,"method":null,"native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":75,"method":null,"native":false},{"column":11,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":64,"method":null,"native":false},{"column":41,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js","function":"ClientSession.endSession","line":135,"method":"endSession","native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"executeCallback","line":59,"method":null,"native":false},{"column":14,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"callbackWithRetry","line":131,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js","function":null,"line":36,"method":null,"native":false},{"column":9,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js","function":null,"line":92,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":null,"line":289,"method":null,"native":false},{"column":18,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js","function":null,"line":414,"method":null,"native":false},{"column":11,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":75,"method":null,"native":false}]}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"]},"level":"error","message":"uncaughtException: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\nError: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","stack":"Error: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","exception":true,"date":"Sun Dec 01 2019 19:32:15 GMT-0600 (Central Standard Time)","process":{"pid":10908,"uid":null,"gid":null,"cwd":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.9.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"],"memoryUsage":{"rss":57094144,"heapTotal":32759808,"heapUsed":22855696,"external":20041292}},"os":{"loadavg":[0,0,0],"uptime":89738},"trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":772,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":677,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":830,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":68,"method":null,"native":false},{"column":47,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js","function":null,"line":80,"method":null,"native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":75,"method":null,"native":false},{"column":11,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":64,"method":null,"native":false},{"column":41,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js","function":"ClientSession.endSession","line":135,"method":"endSession","native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"executeCallback","line":59,"method":null,"native":false},{"column":14,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"callbackWithRetry","line":131,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js","function":null,"line":36,"method":null,"native":false},{"column":9,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js","function":null,"line":92,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":null,"line":289,"method":null,"native":false},{"column":18,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js","function":null,"line":414,"method":null,"native":false},{"column":11,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":75,"method":null,"native":false}]}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"]},"level":"error","message":"uncaughtException: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\nError: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","stack":"Error: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","exception":true,"date":"Sun Dec 01 2019 19:40:24 GMT-0600 (Central Standard Time)","process":{"pid":4104,"uid":null,"gid":null,"cwd":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.9.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"],"memoryUsage":{"rss":57864192,"heapTotal":33288192,"heapUsed":23173096,"external":20000447}},"os":{"loadavg":[0,0,0],"uptime":318},"trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":772,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":677,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":830,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":68,"method":null,"native":false},{"column":47,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js","function":null,"line":80,"method":null,"native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":75,"method":null,"native":false},{"column":11,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":64,"method":null,"native":false},{"column":41,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js","function":"ClientSession.endSession","line":135,"method":"endSession","native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"executeCallback","line":59,"method":null,"native":false},{"column":14,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"callbackWithRetry","line":131,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js","function":null,"line":36,"method":null,"native":false},{"column":9,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js","function":null,"line":92,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":null,"line":289,"method":null,"native":false},{"column":18,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js","function":null,"line":414,"method":null,"native":false},{"column":11,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":75,"method":null,"native":false}]}
+{"message":"GET /","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"GET /instructor?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/edit/1","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"given\":\"Bhavya\",\"family\":\"Gorrepati\",\"city\":\"Maryville\",\"state\":\"MO\",\"zip\":\"64468\",\"country\":\"USA\",\"salary\":20000,\"github\":\"https://github.com/Bhavya-123\",\"_id\":1,\"email\":\"bhavyadeepthi545@gmail.com\"}]","level":"info"}
+{"message":"POST /instructor/save/1","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=1","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6765655432116568065\",\"t\":4},\"electionId\":\"7fffffff0000000000000004\",\"ok\":1,\"operationTime\":\"6765655432116568065\",\"$clusterTime\":{\"clusterTime\":\"6765655432116568065\",\"signature\":{\"hash\":\"uYuATcBGbPZgJjqG2kaTetLNPo8=\",\"keyId\":\"6758691052451790849\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"email\":\"bhavyadeepthi545@gmail.com\",\"given\":\"Bhavyaaaaaaaa\",\"family\":\"Gorrepati\",\"city\":\"Maryville\",\"state\":\"MO\",\"zip\":\"64468\",\"country\":\"USA\",\"salary\":\"20000\",\"github\":\"https://github.com/Bhavya-123\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6765655432116568065\",\"t\":4},\"electionId\":\"7fffffff0000000000000004\",\"ok\":1,\"operationTime\":\"6765655432116568065\",\"$clusterTime\":{\"clusterTime\":\"6765655432116568065\",\"signature\":{\"hash\":\"uYuATcBGbPZgJjqG2kaTetLNPo8=\",\"keyId\":\"6758691052451790849\"}}}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"GET /instructor?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"GET /instructor?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/edit/11","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"given\":\"test to bharat\",\"family\":\"test succeed\",\"city\":\"telidu\",\"state\":\"emo\",\"zip\":\"12345\",\"country\":\"naade\",\"salary\":2345,\"github\":\"asdf@github.com\",\"_id\":11,\"email\":\"test@gmail.com\",\"__v\":0}]","level":"info"}
+{"message":"POST /instructor/save/11","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=11","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6765659817278177281\",\"t\":4},\"electionId\":\"7fffffff0000000000000004\",\"ok\":1,\"operationTime\":\"6765659817278177281\",\"$clusterTime\":{\"clusterTime\":\"6765659817278177281\",\"signature\":{\"hash\":\"qxBgUW3o9OvzRhZOK9xmhLRNrb0=\",\"keyId\":\"6758691052451790849\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"email\":\"test@gmail.com\",\"given\":\"test to bharat\",\"family\":\"test succeed\",\"city\":\"abcd\",\"state\":\"emo\",\"zip\":\"12345\",\"country\":\"naade\",\"salary\":\"2345\",\"github\":\"asdf@github.com\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6765659817278177281\",\"t\":4},\"electionId\":\"7fffffff0000000000000004\",\"ok\":1,\"operationTime\":\"6765659817278177281\",\"$clusterTime\":{\"clusterTime\":\"6765659817278177281\",\"signature\":{\"hash\":\"qxBgUW3o9OvzRhZOK9xmhLRNrb0=\",\"keyId\":\"6758691052451790849\"}}}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"SAVING NEW item {\"given\":\"bhaasr\",\"family\":\"asfn\",\"city\":\"aslfk\",\"state\":\"aslfjkn\",\"zip\":\"asdfkasl\",\"country\":\"asdasl\",\"salary\":2345,\"github\":\"askldjas\",\"_id\":12,\"email\":\"as@gmail.com\",\"__v\":0}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"SAVING NEW item {\"given\":\"askflh\",\"family\":\"asfkl\",\"city\":\"asdklfj\",\"state\":\"asfkl\",\"zip\":\"sldkf\",\"country\":\"sdlkfjal\",\"salary\":23456,\"github\":\"wetkjtwe;\",\"_id\":13,\"email\":\"klafjkl@gmail.com\",\"__v\":0}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"GET /instructor?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"SAVING NEW item {\"given\":\"safas\",\"family\":\"afs\",\"city\":\"asfas\",\"state\":\"sfsdf\",\"zip\":\"sadfasf\",\"country\":\"asfasf\",\"salary\":1234,\"github\":\"asefaef@github.com\",\"_id\":14,\"email\":\"adasf@gmail.com\",\"__v\":0}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"]},"level":"error","message":"uncaughtException: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\nError: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","stack":"Error: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","exception":true,"date":"Sun Dec 01 2019 20:21:07 GMT-0600 (Central Standard Time)","process":{"pid":7404,"uid":null,"gid":null,"cwd":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.9.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app"],"memoryUsage":{"rss":56995840,"heapTotal":32759808,"heapUsed":22854632,"external":20041292}},"os":{"loadavg":[0,0,0],"uptime":2762},"trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":772,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":677,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":830,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":68,"method":null,"native":false},{"column":47,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js","function":null,"line":80,"method":null,"native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":75,"method":null,"native":false},{"column":11,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":64,"method":null,"native":false},{"column":41,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js","function":"ClientSession.endSession","line":135,"method":"endSession","native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"executeCallback","line":59,"method":null,"native":false},{"column":14,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"callbackWithRetry","line":131,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js","function":null,"line":36,"method":null,"native":false},{"column":9,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js","function":null,"line":92,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":null,"line":289,"method":null,"native":false},{"column":18,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js","function":null,"line":414,"method":null,"native":false},{"column":11,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":75,"method":null,"native":false}]}
+{"message":"GET /","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/delete/14","level":"debug"}
+{"message":"Handling GET /delete/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"given\":\"safas\",\"family\":\"afs\",\"city\":\"asfas\",\"state\":\"sfsdf\",\"zip\":\"sadfasf\",\"country\":\"asfasf\",\"salary\":1234,\"_id\":14,\"github\":\"asefaef@github.com\",\"email\":\"adasf@gmail.com\",\"__v\":0}]","level":"info"}
+{"message":"POST /instructor/delete/14","level":"debug"}
+{"message":"Handling DELETE request [object Object]","level":"info"}
+{"message":"Handling REMOVING ID=14","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"SAVING NEW item {\"given\":\"aasklfhf\",\"family\":\"sdfhsd\",\"city\":\"asfsdjk\",\"state\":\"sdfjhsjk\",\"zip\":\"asdgaf\",\"country\":\"asflgsf\",\"salary\":1234,\"_id\":14,\"email\":\"sadsd@gmail.com\",\"github\":\"bharat@github.com\",\"__v\":0}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:@Sweety123@cluster0-hej44.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js"]},"level":"error","message":"uncaughtException: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\nError: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","stack":"Error: Cannot find module './data/developers.json'\nRequire stack:\n- C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:677:27)\n    at Module.require (internal/modules/cjs/loader.js:830:19)\n    at require (internal/modules/cjs/helpers.js:68:18)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js:80:47\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:64:11\n    at ClientSession.endSession (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js:135:41)\n    at executeCallback (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:59:17)\n    at callbackWithRetry (C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:131:14)\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js:36:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js:92:9\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:289:7\n    at C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:414:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","exception":true,"date":"Sun Dec 01 2019 20:25:15 GMT-0600 (Central Standard Time)","process":{"pid":11308,"uid":null,"gid":null,"cwd":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.9.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app"],"memoryUsage":{"rss":57315328,"heapTotal":32759808,"heapUsed":22883992,"external":20041292}},"os":{"loadavg":[0,0,0],"uptime":3010},"trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":772,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":677,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":830,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":68,"method":null,"native":false},{"column":47,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\app.js","function":null,"line":80,"method":null,"native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":75,"method":null,"native":false},{"column":11,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":64,"method":null,"native":false},{"column":41,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sessions.js","function":"ClientSession.endSession","line":135,"method":"endSession","native":false},{"column":17,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"executeCallback","line":59,"method":null,"native":false},{"column":14,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"callbackWithRetry","line":131,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\count_documents.js","function":null,"line":36,"method":null,"native":false},{"column":9,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\command_v2.js","function":null,"line":92,"method":null,"native":false},{"column":7,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":null,"line":289,"method":null,"native":false},{"column":18,"file":"C:\\Users\\S536778\\Documents\\563\\TESTINGAPP\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\core\\connection\\pool.js","function":null,"line":414,"method":null,"native":false},{"column":11,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":75,"method":null,"native":false}]}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"SAVING NEW item {\"_id\":15,\"given\":\"bharat\",\"family\":\"reddy\",\"email\":\"bharat@gmail.com\",\"city\":\"hyd\",\"state\":\"tg\",\"zip\":\"500015\",\"country\":\"india\",\"salary\":1234,\"github\":\"https:/bharath/github.com\",\"__v\":0}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"SAVING NEW item {\"_id\":16,\"given\":\"asdf\",\"family\":\"adfa\",\"email\":\"bharat@gmail\",\"city\":\"hyd\",\"state\":\"asdasd\",\"zip\":\"asdsf\",\"country\":\"asfasf\",\"salary\":11234,\"github\":\"sakaiff\",\"__v\":0}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"SAVING NEW item {\"_id\":17,\"given\":\"ASFAS\",\"family\":\"sdgdg\",\"email\":\"asds@GMAIL.COM\",\"city\":\"sdgsg\",\"state\":\"askgdas\",\"zip\":\"asfasf\",\"country\":\"askjfsdkj\",\"salary\":2345,\"github\":\"https://github.com/bharat\",\"__v\":0}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/delete/17","level":"debug"}
+{"message":"Handling GET /delete/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"_id\":17,\"given\":\"ASFAS\",\"family\":\"sdgdg\",\"email\":\"asds@GMAIL.COM\",\"city\":\"sdgsg\",\"state\":\"askgdas\",\"zip\":\"asfasf\",\"country\":\"askjfsdkj\",\"salary\":2345,\"github\":\"https://github.com/bharat\",\"__v\":0}]","level":"info"}
+{"message":"POST /instructor/delete/17","level":"debug"}
+{"message":"Handling DELETE request [object Object]","level":"info"}
+{"message":"Handling REMOVING ID=17","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/edit/16","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"_id\":16,\"given\":\"asdf\",\"family\":\"adfa\",\"email\":\"bharat@gmail\",\"city\":\"hyd\",\"state\":\"asdasd\",\"zip\":\"asdsf\",\"country\":\"asfasf\",\"salary\":11234,\"github\":\"sakaiff\",\"__v\":0}]","level":"info"}
+{"message":"POST /instructor/save/16","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=16","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6765663961921617922\",\"t\":4},\"electionId\":\"7fffffff0000000000000004\",\"ok\":1,\"operationTime\":\"6765663961921617922\",\"$clusterTime\":{\"clusterTime\":\"6765663961921617922\",\"signature\":{\"hash\":\"yT3Sz8a+CFxu5O6irYDgvzFGXGM=\",\"keyId\":\"6758691052451790849\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"email\":\"bharat@gmail\",\"given\":\"asdf\",\"family\":\"jhkdtyfjsrjt\",\"city\":\"hyd\",\"state\":\"asdasd\",\"zip\":\"asdsfcjhcjhfghf\",\"country\":\"asfasf\",\"salary\":\"11234\",\"github\":\"sakaiff\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6765663961921617922\",\"t\":4},\"electionId\":\"7fffffff0000000000000004\",\"ok\":1,\"operationTime\":\"6765663961921617922\",\"$clusterTime\":{\"clusterTime\":\"6765663961921617922\",\"signature\":{\"hash\":\"yT3Sz8a+CFxu5O6irYDgvzFGXGM=\",\"keyId\":\"6758691052451790849\"}}}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/details/16","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"_id\":16,\"given\":\"asdf\",\"family\":\"jhkdtyfjsrjt\",\"email\":\"bharat@gmail\",\"city\":\"hyd\",\"state\":\"asdasd\",\"zip\":\"asdsfcjhcjhfghf\",\"country\":\"asfasf\",\"salary\":11234,\"github\":\"sakaiff\",\"__v\":0}]","level":"info"}
+{"message":"GET /instructor?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/delete/14","level":"debug"}
+{"message":"Handling GET /delete/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"_id\":14,\"given\":\"aasklfhf\",\"family\":\"sdfhsd\",\"city\":\"asfsdjk\",\"state\":\"sdfjhsjk\",\"zip\":\"asdgaf\",\"country\":\"asflgsf\",\"salary\":1234,\"email\":\"sadsd@gmail.com\",\"github\":\"bharat@github.com\",\"__v\":0}]","level":"info"}
+{"message":"POST /instructor/delete/14","level":"debug"}
+{"message":"Handling DELETE request [object Object]","level":"info"}
+{"message":"Handling REMOVING ID=14","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
