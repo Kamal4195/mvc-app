@@ -40,7 +40,7 @@ api.get('/', (req, res) => {
   LOG.info(`Handling GET / ${req}`)
   SectionSchema.find({}, (err, data) => {
     if (err) { return res.end('Error') }
-    res.locals.section = data
+    res.locals.sections = data
     res.render('section/index')
   })
 })
@@ -50,8 +50,8 @@ api.get('/create', (req, res) => {
   LOG.info(`Handling GET /create ${req}`)
   SectionSchema.find({}, (err, data) => {
     if (err) { return res.end('error on create') }
-    res.locals.section = data
-    res.locals.sections = new SectionSchema()
+    res.locals.sections = data
+    res.locals.section = new SectionSchema()
     res.render('section/create')
   })
 })
@@ -140,7 +140,7 @@ api.post('/save/:id', (req, res) => {
         days: req.body.days,
         startTime: req.body.startTime,
         roomNumber: req.body.roomNumber,
-        instructorId: req.body.courseId,
+        instructorId: req.body.instructorId,
         courseId: req.body.courseId
       }
     },
