@@ -90,7 +90,7 @@ connection.once('open', function () {
   LOG.info('MongoDB event open')
   LOG.info(`MongoDB connected ${dbURI}\n`)
 
-  seed('developers')
+  //seed('developers')
   seed('courses')
   seed('instructors')
   seed('sections')
