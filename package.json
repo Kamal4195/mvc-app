@@ -1,6 +1,6 @@
 {
-  "name": "node-express",
-  "description": "Express web app using MVC",
+  "name": "mvc-app",
+  "description": "Express web app using MVC (with views)",
   "version": "1.0.0",
   "author": "Denise Case",
   "dependencies": {
@@ -11,7 +11,7 @@
     "cookie-parser": "latest",
     "consolidate": "latest",
     "dotenv": "latest",
-    "ejs": "2.7.1",
+    "ejs": "2.7.2",
     "errorhandler": "latest",
     "express": "latest",
     "express-ejs-layouts": "latest",
@@ -28,6 +28,13 @@
     "winston": "latest"
   },
   "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-standard": "latest",
+    "eslint-plugin-vue": "latest",
     "nodemon": "^1.19.4"
   },
   "keywords": [
@@ -35,9 +42,13 @@
     "JavaScript",
     "Node.js",
     "app",
-    "chat",
+    "EJS view engine",
     "data",
     "jQuery",
+    "MongoDB",
+    "Mongoose.js",
+    "MVC",
+    "REST",
     "seed",
     "web"
   ],
