@@ -11,7 +11,7 @@
     "cookie-parser": "latest",
     "consolidate": "latest",
     "dotenv": "latest",
-    "ejs": "latest",
+    "ejs": "2.7.2",
     "errorhandler": "latest",
     "express": "latest",
     "express-ejs-layouts": "latest",
