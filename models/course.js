@@ -19,7 +19,6 @@ const CourseSchema = new mongoose.Schema({
     minlength: 2,
     maxlength: 2,
     required: true,
-    unique: true,
     
   },
   courseNumber: {
@@ -27,7 +26,6 @@ const CourseSchema = new mongoose.Schema({
     minlength: 3,
     maxlength: 3,
     required: true,
-    unique: true,
   },
   Name: {
     type: String,
@@ -49,13 +47,13 @@ const CourseSchema = new mongoose.Schema({
   },
   inFall: {
     type: Boolean,
-    minlength: 5,
+    minlength: 4,
     maxlength: 12,
     required: true
   },
   Major: {
     type: String,
-    minlength: 5,
+    minlength: 2,
     maxlength: 100,
     required: true,
   },
